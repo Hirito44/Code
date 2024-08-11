@@ -1,0 +1,131 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 120px;
+    height: 110px;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #A2A6A7;
+    height: 30px;
+    margin-bottom: 0;
+}
+.menu li{
+    margin-top: 5px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+}
+/* banner */
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    width: 100%;
+}
+
+.blue-text{
+    color: #14B9ED;
+}
+
+/* about */
+.about{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.description{
+    margin-left: 40px;
+    margin-right: 70px;
+}
+.about img{
+    margin-right: 100px;
+    width: 450px;
+    height: 350px;
+}
+
+/* service */
+.line{
+    display: flex;
+    justify-content: center;
+}
+.fixing {
+    margin-left: 30px;
+    border: 2px solid #F5A486;
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+.fixing img{
+    width: 150px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.fixing p{
+    text-align: center;
+}
+.fixing a{
+    display: flex;
+    text-decoration: none;
+    background-color: #07B5BE;
+    color: white;
+    width: 120px;
+    height: 30px;
+    margin-left: 80px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 8px;
+}
+/* refrigerator */
+.refrigerator{
+    display: flex;
+    justify-content: center;
+
+}
+.tulanh-img{
+    background-color: #ECECEC;
+    margin-left: 70px;
+    width: 300px;
+    height: 370px;
+}
+.refrigerator img{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h4{
+    text-align: center;
+}
+.tulanh-img p{
+    text-align: center;
+    color: #F5A486;
+}
+.orange-text{
+    text-align: center;
+    color: #F5A486;
+}
+.bigtitle{
+    text-align: center;
+    color: #14B9ED;
+}
+.footer{
+    background-color: #A2A6A7;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 25px;
+}
